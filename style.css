@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*{
+    font-family: "poppins",sans-serif;
+}
+:root{
+    --primary-color: #5e3a1c;
+    --secondary-color: #f3961c;
+    --dark-color: #252525;
+    --white-color: #fff;
+    --light-gray-color: #f2f2f2;
+}
+/* navbar */
+.navbar{
+    background-color: var(--primary-color); 
+}
+#toggle,#close{
+    box-shadow: none;
+    border: none;
+}
+.nav-link{
+    border-radius: 19px;
+}
+.nav-item a{
+    color: var(--white-color);
+}
+.nav-link:hover{
+    background-color: var(--secondary-color);
+}
+.offcanvas-header{
+    background-color: var(--primary-color);
+}
+.offcanvas-body{
+    background-color: var(--primary-color);
+}
+
+/* slider */
+#slider{
+    background-color: var(--primary-color);
+    text-align: center;
+    /* padding-top: 3%;
+    padding-bottom: 4%; */
+    padding: 4%;
+}
+#slider .container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+#slider h2{
+    color: var(--secondary-color);
+    line-height: 50px;
+    text-align: left;
+}
+#slider h3{
+    color: var(--white-color);
+    line-height:40px;
+    text-align: left;
+}
+#slider h6{
+    color: var(--white-color);
+    text-align: left;
+}
+#slider p{
+    text-align: left;
+}
+#slider .btn1{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: solid 1px #f3961c;
+    margin-top: 2%;
+    padding: 8px 19px;
+    border-radius: 22px;
+    
+}
+#slider .btn2{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin-top: 2%;
+    padding: 8px 19px;
+    border-radius: 22px;
+    border: solid 1px white;
+    
+}
+#slider .btn1:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--white-color);
+}
+#slider .btn2:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+}
+
+/* about us */
+#aboutus{
+    padding: 5%;
+    text-align: center;
+}
+#aboutus p{
+    margin-top: 4%;
+}
+
+/* sevices */
+#service{
+    background-color: rgb(179, 153, 130);
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 8%;
+}
+#service img{
+    transition: all 1s;
+}
+#service img:hover{
+    transform: translateY(-15px);
+}
+#service h6{
+    font-size: 14px;
+}
+
+/* why us */
+#whyus{
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 10%;
+}
+#whyus h6{
+    font-size: 14px;
+}
+
+/* gallary */
+.wrapper{
+    overflow: hidden;
+    object-fit: cover;
+}
+.wrapper img{
+    transition: all 1s;
+}
+.wrapper:hover img{
+    transform: scale(1.2);
+}
+
+/* contact */
+#contact{
+    padding: 3%;
+}
+#contact button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
+#contact .details{
+    margin-top: 2%;
+    padding-left: 9%;
+}
+
+/* footer */
+footer{
+    background-color: var(--primary-color);
+    padding: 1%;
+}
+footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--white-color);
+}
+
+
+
